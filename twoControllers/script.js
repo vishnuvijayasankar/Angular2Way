@@ -1,8 +1,8 @@
 var firstController = function ($scope)
 {
   // Initialize the model variables
-  $scope.firstName = "John";
-  $scope.lastName = "Doe";
+  // $scope.firstName = "John";
+  // $scope.lastName = "Doe";
 
   // Define utility functions
   $scope.getFullName = function ()
@@ -14,9 +14,9 @@ var firstController = function ($scope)
 var secondController = function ($scope)
 {
   // Initialize the model variables
-  $scope.firstName = "Bob";
-  $scope.middleName = "Al";
-  $scope.lastName = "Smith";
+  // $scope.firstName = "Bob";
+  // $scope.middleName = "Al";
+  // $scope.lastName = "Smith";
 
   // Define utility functions
   $scope.getFullName = function ()

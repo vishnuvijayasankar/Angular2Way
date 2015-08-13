@@ -55,10 +55,10 @@
       <strong>First name (from First):</strong> {{firstModelObj.firstName}}<br />
       <strong>Last name (from Second):</strong> {{secondModelObj.lastName}}<br />
       <strong>Full name:</strong> {{getFullName()}}<br />
-      <br />
+      <br/>
       <label>Set the first name: <input type="text" ng-model="firstModelObj.firstName"/></label><br />
       <label>Set the last name: <input type="text" ng-model="secondModelObj.lastName"/></label><br />
-      <br />
+      <br/>
       <div ng-controller="thirdControllerObj">
         <h3>Third controller (inside Second and First)</h3>
         <strong>First name (from First):</strong> {{firstModelObj.firstName}}<br />
@@ -66,9 +66,9 @@
         <strong>Last name (from Second):</strong> {{secondModelObj.lastName}}<br />
         <strong>Last name (from Third):</strong> {{thirdModelObj.lastName}}<br />
         <strong>Full name (redefined in Third):</strong> {{getFullName()}}<br />
-        <br />
-        <label>Set the first name: <input type="text" ng-model="firstModelObj.firstName"/></label><br />
-        <label>Set the middle name: <input type="text" ng-model="thirdModelObj.middleName"/></label><br />
+        <br/>
+        <label>Set the first name: <input type="text" ng-model="firstModelObj.firstName"/></label><br/>
+        <label>Set the middle name: <input type="text" ng-model="thirdModelObj.middleName"/></label><br/>
         <label>Set the last name: <input type="text" ng-model="thirdModelObj.lastName"/></label>
       </div>
     </div>

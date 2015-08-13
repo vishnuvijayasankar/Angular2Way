@@ -5,7 +5,7 @@
   <script src="script.js"></script>
 </head>
 
-<body ng-app>
+<body ng-app ng-init="firstName = '';middleName= ''; lastName = '';">
   <div ng-controller="firstController">
     <h2>Model managed by the first controller</h2>
     <strong>First name:</strong> {{firstName}}<br />

@@ -1,13 +1,13 @@
 var firstControllerScope = function ($scope)
 {
   // Initialize the model variables
-  $scope.firstName = "John";
+  $scope.firstName = "Vishnu";
 };
 
 var secondControllerScope = function ($scope)
 {
   // Initialize the model variables
-  $scope.lastName = "Doe";
+  $scope.lastName = "Vijaya Sankar";
 
   // Define utility functions
   $scope.getFullName = function ()
@@ -19,8 +19,8 @@ var secondControllerScope = function ($scope)
 var thirdControllerScope = function ($scope)
 {
   // Initialize the model variables
-  $scope.middleName = "Al";
-  $scope.lastName = "Smith";
+  $scope.middleName = "Vijaya";
+  $scope.lastName = "Sankar";
 
   // Define utility functions
   $scope.getFullName = function ()
@@ -33,7 +33,7 @@ var firstControllerObj = function ($scope)
 {
   // Initialize the model object
   $scope.firstModelObj = {
-    firstName: "John"
+    firstName: "Vishnu"
   };
 };
 
@@ -41,7 +41,7 @@ var secondControllerObj = function ($scope)
 {
   // Initialize the model object
   $scope.secondModelObj = {
-    lastName: "Doe"
+    lastName: "Vijaya Sankar"
   };
 
   // Define utility functions
@@ -56,8 +56,8 @@ var thirdControllerObj = function ($scope)
 {
   // Initialize the model object
   $scope.thirdModelObj = {
-    middleName: "Al",
-    lastName: "Smith"
+    middleName: "Vijaya",
+    lastName: "Sankar"
   };
 
   // Define utility functions
